@@ -67,6 +67,7 @@ function getParam(paramName) {
     } 
     return paramValue == "" && (paramValue = null), paramValue 
 } 
+
 var g_itemVO = {};
 jQuery(document).ready(function(){
 
@@ -93,6 +94,7 @@ jQuery(document).ready(function(){
 			});
 
 		});
+
 	function reloadDom(){
 		$("#title").text(g_itemVO.title);
 		$("#description").text(g_itemVO.description);
